@@ -42,7 +42,7 @@ jobs:
           npm i
 
       - name: Build
-        run: hugo
+        run: hugo --destination=public
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
